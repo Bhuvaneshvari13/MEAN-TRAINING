@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="Utf-8"> 
+        <meta name="viewport" content="width=device width,initial-scale=1.0">
+        <title> My first Html-page</title>
+        </head>
+       <body>
+        <header> <!--headings,logos,navigations -->
+            <h1> Welcome </h1>
+<nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    </ul>
+</nav>
+        </header>
+
+        <section>
+            <article>
+                <h2> Introduction</h2>
+                <p>
+                    Example document 
+                </p>
+<video controls width="400">
+    <source src="file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+    <track src="MIB2-subtitles-pt-BR .vtt" kind="subtitles" srclang="en" label="English">
+</video>
+
+<main>
+    <h1>Welcome to my website</h1>
+    <p> This where the main content appears</p>
+</main>
+
+<figure>
+
+    <video controls width="400">
+        <source src="file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+        <track src="MIB2-subtitles-pt-BR .vtt" kind="subtitles" srclang="en" label="English">
+    </video><br>
+
+    <img src="mountain.jpg" alt="Beautiful Landscape"width="250" height="200">
+    <figcaption>A beautiful Mountain picture</figcaption>
+</figure>
+
+<p>HTML is the <mark> foundation</mark>of web development</p>
+
+
+<form>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date">
+    
+    <input type="submit" value="Submit">
+</form>
+
+            </article>
+        </section>
+
+<section>
+    <h2> Our services</h2>
+    <P> Detailed description</P>
+</section>
+
+<article>
+    <h2> Latest News </h2>
+    <p>Html is improving web development</p>
+</article>
+
+<aside>
+    <h3> Related Atricles</h3>
+    <p> Learn Css Grid Layout </p>
+</aside>
+
+<audio controls>
+    <source src="sample-3s.mp3" type="audio/mp3">
+</audio>
+
+<canvas id="myCanvas" width="400" height="200"></canvas>
+<script>
+    var canvas=document.getElementById("myCanvas");
+    var ctx= canvas.getContext("2d");
+    ctx.fillStyle="blue";
+    ctx.fillRect(50,50,100,100);
+</script>
+
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red"/>
+    </svg>
+
+    <details>
+        <summary>click see More </summary>
+        <p> DETAILED BELOW </p>
+      </details>
+       <progress value="100" max="100"></progress>
+
+
+       <meter value="50" min="0" max="100"></meter>
+
+<input list="browsers" name="browser">
+<datalist id="browsers">
+    <option value="Chrome"></option>
+        <option value="Firefox">
+<option value="Safari"></option>
+        </option>
+    </datalist>
+
+    <p>Published on <time datetime="2025-02-25"> February 25,2025"</time></p>
+    <address>
+        Contact us at:<a href="mailto.info@example.com">info@example.com</a>
+    </address>
+
+<form oninput="result.value=parseInt(a.value)*parseInt(b.value)">
+<input type="number" id="a" value="10">*
+<input type="number" id="b" value="20">=
+<output name="result"></output>
+</form>
+
+<label for="battery"> Battery Level:</label></body></label>
+<meter id="battery" min="50" max="100" value="80" low="30" high="100"></meter>
+<input type="email" required>
+
+<a href="/about.html" style="text-decoration: none;">About Us</a><br>
+<a href="sample-1.pdf" download>Download Text File</a>
+<a href="https://www.example.com">
+    <img src="mountain.jpg" alt="Example Image"width="250" height="200"></a><br>
+    <br>
+
+<h1>Tabindex Example</h1>
+<a href="#" tabindex="3"> Link 3</a>
+<a href="#" tabindex="1"> Link 1</a>
+<a href="#" tabindex="2"> Link 2</a>
+<input type="text" tabindex="4" placeholder="Input Field">
+<br>
+
+<h2>Custom Tab order Example</h2>
+<input type="text" placeholder="First Name" tabindex="2"><br>
+<input type="text" placeholder="last Name" tabindex="1"><br>
+<button>Submit</button>
+
+<!--Access key-->
+<p> Use the following access key to navigate</p>
+<ul>
+    <li><a href="#home" accesskey="h">Home (Press Alt+H) </a></li>
+    <li><a href="#about" accesskey="a">About (Press Alt+A) </a></li>
+</ul>
+
+
+        <footer>
+            <p>&copy;2025MyPageday1</p>
+        </footer>
+    </body>
+</html>

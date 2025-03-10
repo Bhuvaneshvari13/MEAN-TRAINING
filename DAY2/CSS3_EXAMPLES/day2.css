@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+    background-image:url("samplejpeg.webp") ;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 50px;
+    text-align: center;
+  }
+
+.myClass{
+    color: brown;
+    font-style: italic;
+    text-shadow: 0cqh;
+}
+
+#myId{
+    color: rgb(138, 138, 190);
+    text-decoration: dotted;
+    background-color: black;
+    font-size:large;
+}
+
+p{
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+    height: min-content;
+    padding: 60px;
+    border:5px solid black;
+    margin: 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+ .container{
+
+ }
+
+
+.new{
+    background-color: rgb(60, 187, 155);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .new{
+        background-color: azure;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form and Table</title>
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  
+  <table>
+    <div class="conatiner mt-4">
+    <h3>Basic Bootstrap tABLE></h3>
+    <table class="table table-hover">
+    <thead class="thead-dark">
+       
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>phone</th>
+        </tr>
+    </thead>
+    <tbody>
+       
+    <tr>
+        <td>1</td>
+        <td>john doe</td>
+        <td>john1@gmail.com</td>
+        <td>5687893</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Maya</td>
+        <td>maya1@gmail.com</td>
+        <td>+2345673</td>
+    </tr>
+  </table>
+     
+    <div class="conatiner mt-4">
+      <h3> BS-Form</h3>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+        <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Name" minlength="10" maxlength="50">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          <div class="invalid-feedback">Enter valid email</div>
+        </div>
+        <div class="form-group">
+          <label for="number">Number:</label>
+          <input type="text" class="form-group" id="phone-number" placeholder="Enter your phone-number" maxlength="10" pattern="[1-9]{1}[0-9]{9}" title="Invalid">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+      </form>
+    </div>
+    
+  
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMIC HTML</title>
+</head>
+<body>
+
+    <!-- <button onclick="change()">BUTTON</button>
+<div id="container">TEXT TEXT TEXT TEXT </div>
+
+<SCRIPT>
+    function change(){
+        document.getElementById("container").style.backgroundColor="blue";
+        document.getElementById("container").style.fontSize= "50px";
+        document.getElementById("container").style.fontFamily="Georgia, serif";
+    }
+</SCRIPT> -->
+
+<input type="text" id="nameInput" placeholder="Enter your name">
+<button onclick="displayMessage()">SUBMIT</button>
+<p id="message"></p>
+<script>
+    function displayMessage(){
+        let name=document.getElementById("nameInput").value;
+        document.getElementById("message").innerText="Hello, "+name+ "!";
+    
+    }
+</script>
+
+</body>
+</html>
+
+
+

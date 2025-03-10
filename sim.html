@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-code</title>
+</head>
+<body>
+ 
+<!-- // function buttonClickHandler(){
+//     let clicks=0;
+
+//     return function(){
+//         clicks++;
+//         console.log(`Button clicked ${clicks}times`);
+//     };
+// }
+// const button=document.createElement("button");
+// button.innerText="Click Me";
+// document.body.appendChild(button);
+
+// const handleClick=buttonClickHandler();
+// button.addEventListener("click",handleClick); -->
+
+
+<!-- displays dynamically without refreshing the page -->
+<!-- <button onclick="showMessage()">Click Me</button>
+<p id="message"></p> -->
+
+<!-- <p id="demo">Original Text</p>
+<button onclick="changeText()">Change</button>
+
+<script>
+
+// function showMessage(){
+//     document.getElementById("message").innerText="Hello, Js";
+// }
+
+function changeText(){
+    document.getElementById("demo").innerHTML="Updated Text";
+    document.getElementById("demo").style.color="blue";
+}
+
+</script> -->
+
+<!-- <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Enter name">
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    function validateForm(){
+        let name=document.getElementById("name").value;
+        if(name==""){
+            alert("Name cannot be empty");
+            return false;
+        }
+        return true;
+    }
+</script> -->
+
+<!-- <button onclick="loadData()">LOAD DATA</button>
+<p id="data"></p>
+<script>
+    function loadData(){
+fetch("https://jsonplaceholder.typicode.com/posts/1")
+.then(response=>response.json())
+.then(data=>document.getElementById("data").innerText=data.body)
+    }
+</script> -->
+
+    <!-- <p id="fadeText">This will fade out</p>
+    <button onclick="fadeOut()">Fade Out</button>
+<script>
+    function fadeOut(){
+        let element=document.getElementById("fadeText");
+        element.style.transition="opacity 1s";
+        element.style.opacity="0";
+    }
+</script> -->
+
+<!-- <input type="text" id="username" placeholder="Enter Name">
+<button onclick="saveName()">Save</button>
+<p id="greet"></p>
+
+<script>
+    function saveName(){
+        let name=document.getElementById("username").value;
+        localStorage.setItem("user",name);
+        document.getElementById("greet").innerText="Hello, "+name;
+    }
+</script> -->
+
+<!-- <button onclick="changeMe()">Change Text</button>
+<p id="heading">CHANGE</p>
+<script>
+    function changeMe(){
+        document.getElementById("heading").innerText="Modified text";
+        document.getElementById("heading").innerHTML="<span>Modified text</span>";
+    }
+</script> -->
+
+<button onclick="changeMe()">Change Image</button><br><br>
+<img src="samplejpeg.jpeg" width=300 height=300 id="myImage"></body>
+
+<script>
+    function changeMe(){
+        document.getElementById("myImage").src="mountain.jpeg";
+        // document.getElementById("myImage").href="https://google.com";
+        
+    }
+</script>
+
+
+
+</html>
